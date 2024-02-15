@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Mvz7LpOrKfVuqMJxie9LpeAIXakCzsF6pLEpzcvkVO+10Y/xULQfYKgACOvKqeZcN2VhpBZFadc7NzwNSC4GGQ==",
+  "dgSpecHash": "a78RdZdZZhS7yr3NCkX6fe9WRiv7hoRFoYA53DQhkhxhXmno0mX5l9jy7iZVxN3snzoXfHA8FBDuhtETIN5Pbg==",
   "success": true,
   "projectFilePath": "C:\\Users\\bpwhi\\Exercism\\csharp\\cars-assemble\\CarsAssemble.csproj",
   "expectedPackageFiles": [

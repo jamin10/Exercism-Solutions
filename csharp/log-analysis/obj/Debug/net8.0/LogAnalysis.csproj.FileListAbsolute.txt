@@ -1,0 +1,6 @@
+C:\Users\bpwhi\Exercism\csharp\log-analysis\obj\Debug\net8.0\LogAnalysis.csproj.AssemblyReference.cache
+C:\Users\bpwhi\Exercism\csharp\log-analysis\obj\Debug\net8.0\LogAnalysis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bpwhi\Exercism\csharp\log-analysis\obj\Debug\net8.0\LogAnalysis.AssemblyInfoInputs.cache
+C:\Users\bpwhi\Exercism\csharp\log-analysis\obj\Debug\net8.0\LogAnalysis.AssemblyInfo.cs
+C:\Users\bpwhi\Exercism\csharp\log-analysis\obj\Debug\net8.0\LogAnalysis.csproj.CoreCompileInputs.cache
+C:\Users\bpwhi\Exercism\csharp\log-analysis\obj\Debug\net8.0\LogAnalysis.sourcelink.json

@@ -36,28 +36,60 @@ public static class DialingCodes
     public static string GetCountryNameFromDictionary(
         Dictionary<int, string> existingDictionary, int countryCode)
     {
-        throw new NotImplementedException($"Please implement the (static) GetCountryNameFromDictionary() method");
+        if (existingDictionary.ContainsKey(countryCode))
+        {
+            return existingDictionary[countryCode]; 
+        } else
+        {
+            return string.Empty;
+        }
     }
 
     public static bool CheckCodeExists(Dictionary<int, string> existingDictionary, int countryCode)
     {
-        throw new NotImplementedException($"Please implement the (static) CheckCodeExists() method");
+        if (existingDictionary.ContainsKey(countryCode))
+        {
+            return true;
+        } else
+        {
+            return false;
+        }
     }
 
     public static Dictionary<int, string> UpdateDictionary(
         Dictionary<int, string> existingDictionary, int countryCode, string countryName)
     {
-        throw new NotImplementedException($"Please implement the (static) UpdateDictionary() method");
+        if (existingDictionary.ContainsKey(countryCode))
+        {
+            existingDictionary[countryCode] = countryName;
+            return existingDictionary;
+        } else {
+            return existingDictionary;
+        }
     }
 
     public static Dictionary<int, string> RemoveCountryFromDictionary(
         Dictionary<int, string> existingDictionary, int countryCode)
     {
-        throw new NotImplementedException($"Please implement the (static) RemoveCountryFromDictionary() method");
+        if (existingDictionary.ContainsKey(countryCode) == true)
+        {
+            existingDictionary.Remove(countryCode);
+            return existingDictionary;
+        } else
+        {
+            return existingDictionary;
+        }
     }
 
     public static string FindLongestCountryName(Dictionary<int, string> existingDictionary)
     {
-        throw new NotImplementedException($"Please implement the (static) FindLongestCountryName() method");
+        string longest = "";
+        foreach (KeyValuePair<int, string> entry in existingDictionary)
+        {
+            if (entry.Value.Length > longest.Length) {
+                longest = entry.Value;
+            }
+        }
+        return longest;
     }
 }

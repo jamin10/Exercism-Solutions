@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpaceAge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d80a90f84a9c096b59219ac03ce1bd7cb35114b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d8e96515a030ce60fdffbd8c83872b023869da1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpaceAge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpaceAge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

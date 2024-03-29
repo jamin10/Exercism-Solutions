@@ -27,26 +27,26 @@ public class SpaceAge
 
     public double OnMars()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return OnEarth() / 1.8808158 ;
     }
 
     public double OnJupiter()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return OnEarth() / 11.862615;
     }
 
     public double OnSaturn()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return OnEarth() / 29.447498;
     }
 
     public double OnUranus()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return OnEarth() / 84.016846;
     }
 
     public double OnNeptune()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return OnEarth() / 164.79132 ;
     }
 }

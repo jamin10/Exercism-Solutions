@@ -3,25 +3,27 @@ using System.Linq;
 
 public static class BinarySearch
 {
+    static int output = 0;
+
     public static int Find(int[] input, int value)
     {
-        double length = (double)input.Length;
-        double preIndex = (length - 1) / 2;
-        int index = (int)Math.Round(preIndex, 0, MidpointRounding.AwayFromZero);
-        if (input[index] == value)
+        int minIndex = 0;
+        int maxIndex = input.Length - 1;
+
+        while (minIndex <= maxIndex)
         {
-            return index;
-        } else if (input[index] < value)
-        {
-            int[] newInput = input.Skip(index).ToArray();
-            return Find(newInput, value);
-        } else if (input[index] > value)
-        {
-            int[] newInput = input.Take(index + 1).ToArray();
-            return Find(newInput, value);
-        } else
-        {
-            return value;
+            int midIndex = (minIndex + maxIndex) / 2;
+            if (input[midIndex] == value)
+            {
+                return midIndex;
+            } else if (input[midIndex] < value)
+            {
+                minIndex = midIndex + 1;
+            } else if (input[midIndex] > value)
+            {
+                maxIndex = midIndex - 1;
+            }
         }
+        return -1;
     }
 }

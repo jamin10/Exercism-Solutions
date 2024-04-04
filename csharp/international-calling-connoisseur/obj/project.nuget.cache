@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kR4TulUA14C0RnQnUQUd1PZM/DeNJlzCei5J6ufR8lV/11oUOMPzM2G8V6QhMDSnqa/vRjD8f6HOZaoDt+Abow==",
+  "dgSpecHash": "TEjJkNq9nLlSnULDreC9CXjPEDrk1bBqu+OQwSJFOIdd8ArPJcr65RNCTRXmBJXEgqwx8h0fNKbDoj7iS9fXNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bpwhi\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj",
+  "projectFilePath": "c:\\Users\\bpwhi\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bpwhi\\.nuget\\packages\\exercism.tests\\0.1.0-beta1\\exercism.tests.0.1.0-beta1.nupkg.sha512",
     "C:\\Users\\bpwhi\\.nuget\\packages\\microsoft.codecoverage\\16.8.3\\microsoft.codecoverage.16.8.3.nupkg.sha512",

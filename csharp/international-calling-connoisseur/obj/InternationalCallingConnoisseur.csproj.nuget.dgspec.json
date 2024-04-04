@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bpwhi\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj": {}
+    "c:\\Users\\bpwhi\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bpwhi\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj": {
+    "c:\\Users\\bpwhi\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bpwhi\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj",
+        "projectUniqueName": "c:\\Users\\bpwhi\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj",
         "projectName": "InternationalCallingConnoisseur",
-        "projectPath": "C:\\Users\\bpwhi\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj",
+        "projectPath": "c:\\Users\\bpwhi\\Exercism\\csharp\\international-calling-connoisseur\\InternationalCallingConnoisseur.csproj",
         "packagesPath": "C:\\Users\\bpwhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bpwhi\\Exercism\\csharp\\international-calling-connoisseur\\obj\\",
+        "outputPath": "c:\\Users\\bpwhi\\Exercism\\csharp\\international-calling-connoisseur\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bpwhi\\AppData\\Roaming\\NuGet\\NuGet.Config",

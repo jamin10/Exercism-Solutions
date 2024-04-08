@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 public static class ResistorColor
 {
@@ -17,13 +18,7 @@ public static class ResistorColor
         {"white", 9}
     };
 
-    public static int ColorCode(string color)
-    {
-        return bands[color];
-    }
+    public static int ColorCode(string color) => bands[color];
 
-    public static string[] Colors()
-    {
-        throw new NotImplementedException("You need to implement this function.");
-    }
+    public static string[] Colors() => [.. bands.Keys];
 }

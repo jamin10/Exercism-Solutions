@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ResistorColor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28f2fc7dc8273a43028d33810b3d38ca9212725d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8d8e460968b9e44888f1003a3b9a0e664e85441")]
 [assembly: System.Reflection.AssemblyProductAttribute("ResistorColor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ResistorColor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
